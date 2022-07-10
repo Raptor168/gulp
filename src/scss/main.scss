@@ -3,16 +3,43 @@
 
 h1 {
 	font-size: 36px;
+	color: pink;
 }
-h2 {
-	font-size: 32px;
-}
-p {
-	font-size: 10px;
-}
+// h2 {
+// 	font-size: 32px;
+// }
+// p {
+// 	font-size: 10px;
+// }
 .img {
 background-color: antiquewhite;
 }
-body {
+
+section {
+	height: 500px;
+}
+
+.to-top {
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	width: 100px;
+	height: 100px;
 	background-color: aqua;
+	border-radius: 100%;
+}
+
+
+
+header {
+	background-color: #1B1B1B;
+	color: #fff;
+}
+header a, nav a {
+	color: #fff;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
 }
